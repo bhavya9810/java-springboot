@@ -1,0 +1,6 @@
+select * from course
+
+delete from course where id=1
+
+insert into course(id,name,author)
+values(1,'learn springboot','in28minutes')
